@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Legal-solution</title>
+   <!-- Fontawsome-css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Daisyui CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            // clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    h1,h2,h3,h4{
+      font-family: "EB Garamond", serif;
+    }
+    body{
+        font-family: "Poppins", sans-serif;
+        }
+  </style>
+</head>
+<body>
+  <header class="">
+    <div class="navbar bg-base-100 w-11/12 mx-auto py-6">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+            <li><a>Item 1</a></li>
+            <li>
+             <a href="">Item 2</a>
+            </li>
+            <li><a>Item 3</a></li>
+            <li class=" flex sm:hidden "> <a class="btn bg-[#b68c5a] text-white hover:bg-[#b68d5ac8] max-w-40">Free Consultation</a></li>
+          </ul>
+        </div>
+        <!-- navbar Responsive area Emd -->
+         
+        <img class="max-w-40" src="images/logo2.png" alt="">
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a class="" href="#">Home <i class="fa-solid fa-chevron-right"></i></a></li>
+          <li><a class="" href="#">Services <i class="fa-solid fa-chevron-right"></i></a></li>
+          <li><a class="" href="#">Cases <i class="fa-solid fa-chevron-right"></i></a></li>
+          <li><a class="" href="#">Blog <i class="fa-solid fa-chevron-right"></i></a></li>
+          <li><a class="" href="#">Contact us <i class="fa-solid fa-chevron-right"></i></a></li>
+        </ul>
+      </div>
+      <div class="navbar-end hidden sm:flex">
+        <a class="btn bg-[#b68c5a] text-white hover:bg-[#b68d5ac8] max-w-40">Free Consultation</a>
+      </div>
+    </div> <!-- Navigation is End -->
+    
+    <div class="banner-secton px-2 w-full bg-[url('images/banner.png')] bg-no-repeat bg-center bg-cover">
+      <div class="banner-content py-48 text-white text-center">
+        <h1 class="text-6xl font-bold font-EB Garamond"> We Provide Effective <br> Legal Solutions</h1>
+        <p class=" w-full sm:w-1/2 mx-auto py-6">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+        <form action="">
+          <input type="text" placeholder="Search your Services" class="input input-bordered w-full max-w-xs  md:max-w-xs lg:max-w-xl text-black" />
+          <button class="btn w-full max-w-xs sm:w-40 bg-[#b68c5a] text-white hover:bg-[#b68d5ac8] font-bold sm:ml-2 px-8 border-none mt-4 sm:mt-0">search</button>
+        </form>
+      </div>
+    </div>
+  </header>
+
+
+
+  <!-- daisyui Js -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
